@@ -2,7 +2,7 @@
 
 Programmers use Huffman codes for encoding files to save up space.
 
-A PDF to the Huffman tree is available in this repository [here](res/huffman.pdf).
+A PDF to the Huffman tree is available in this repository [here](src/res/huffman.pdf).
 
 A guide to Huffman trees in given in the Book by Elliot B. Koffman.
 
