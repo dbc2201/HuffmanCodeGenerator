@@ -21,4 +21,8 @@ public class BinaryGenerator {
     public void setUserInputStringInLowerCase(String userInputStringInLowerCase) {
         this.userInputStringInLowerCase = userInputStringInLowerCase;
     }
+
+    public String convertNormalStringToBinaryString(String userInputStringInLowerCase) {
+        return "";
+    }
 }
