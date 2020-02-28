@@ -9,4 +9,16 @@ package binaryGenerator;
 
 public class BinaryGenerator {
     private String userInputStringInLowerCase;
+
+    public BinaryGenerator(String userInputStringInLowerCase) {
+        this.userInputStringInLowerCase = userInputStringInLowerCase;
+    }
+
+    public String getUserInputStringInLowerCase() {
+        return userInputStringInLowerCase;
+    }
+
+    public void setUserInputStringInLowerCase(String userInputStringInLowerCase) {
+        this.userInputStringInLowerCase = userInputStringInLowerCase;
+    }
 }
