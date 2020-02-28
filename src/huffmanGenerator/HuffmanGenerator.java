@@ -22,7 +22,7 @@ public class HuffmanGenerator {
         this.userInputStringInLowerCase = userInputStringInLowerCase;
     }
 
-    public String convertNormalStringToHuffmanString(String userInputStringInLowerCase) {
+    public String convertNormalStringToHuffmanString() {
         return "";
     }
 }

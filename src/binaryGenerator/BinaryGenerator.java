@@ -22,7 +22,7 @@ public class BinaryGenerator {
         this.userInputStringInLowerCase = userInputStringInLowerCase;
     }
 
-    public String convertNormalStringToBinaryString(String userInputStringInLowerCase) {
+    public String convertNormalStringToBinaryString() {
         return "";
     }
 }
