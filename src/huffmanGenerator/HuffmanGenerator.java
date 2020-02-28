@@ -21,4 +21,8 @@ public class HuffmanGenerator {
     public void setUserInputStringInLowerCase(String userInputStringInLowerCase) {
         this.userInputStringInLowerCase = userInputStringInLowerCase;
     }
+
+    public String convertNormalStringToHuffmanString(String userInputStringInLowerCase) {
+        return "";
+    }
 }
