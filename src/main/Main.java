@@ -8,6 +8,7 @@
 package main;
 
 import binaryGenerator.BinaryGenerator;
+import huffmanGenerator.HuffmanGenerator;
 
 import java.util.Scanner;
 
@@ -17,7 +18,9 @@ public class Main {
         final Scanner scanner = new Scanner(System.in);
         String userInput = scanner.nextLine().trim();
         BinaryGenerator binaryGenerator = new BinaryGenerator(userInput);
-        binaryGenerator.convertNormalStringToBinaryString();
+        String binaryString = binaryGenerator.convertNormalStringToBinaryString();
+        HuffmanGenerator huffmanGenerator = new HuffmanGenerator(userInput);
+        String huffmanString = huffmanGenerator.convertNormalStringToHuffmanString();
         scanner.close();
     }
 }
