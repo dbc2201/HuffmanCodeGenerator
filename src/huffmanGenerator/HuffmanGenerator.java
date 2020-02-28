@@ -8,4 +8,5 @@
 package huffmanGenerator;
 
 public class HuffmanGenerator {
+    private String userInputStringInLowerCase;
 }
