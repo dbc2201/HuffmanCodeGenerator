@@ -8,4 +8,5 @@
 package binaryGenerator;
 
 public class BinaryGenerator {
+    private String userInputStringInLowerCase;
 }
