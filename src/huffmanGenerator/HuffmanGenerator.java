@@ -9,4 +9,16 @@ package huffmanGenerator;
 
 public class HuffmanGenerator {
     private String userInputStringInLowerCase;
+
+    public HuffmanGenerator(String userInputStringInLowerCase) {
+        this.userInputStringInLowerCase = userInputStringInLowerCase;
+    }
+
+    public String getUserInputStringInLowerCase() {
+        return userInputStringInLowerCase;
+    }
+
+    public void setUserInputStringInLowerCase(String userInputStringInLowerCase) {
+        this.userInputStringInLowerCase = userInputStringInLowerCase;
+    }
 }
