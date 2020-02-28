@@ -23,6 +23,8 @@ public class Main {
         String huffmanString = huffmanGenerator.convertNormalStringToHuffmanString();
         int lengthOfBinaryString = binaryString.length();
         int lengthOfHuffmanString = huffmanString.length();
+        System.out.println("The binary string has " + lengthOfBinaryString + " characters.");
+        System.out.println("The huffman string has " + lengthOfHuffmanString + " characters.");
         scanner.close();
     }
 }
