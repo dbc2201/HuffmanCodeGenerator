@@ -21,6 +21,8 @@ public class Main {
         String binaryString = binaryGenerator.convertNormalStringToBinaryString();
         HuffmanGenerator huffmanGenerator = new HuffmanGenerator(userInput);
         String huffmanString = huffmanGenerator.convertNormalStringToHuffmanString();
+        int lengthOfBinaryString = binaryString.length();
+        int lengthOfHuffmanString = huffmanString.length();
         scanner.close();
     }
 }
